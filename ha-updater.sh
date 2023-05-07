@@ -43,4 +43,4 @@ echo
 echo installing
 docker run -d --name homeassistant --privileged --restart=unless-stopped -e TZ=America/New_York -v /homeassistantconfig:/config --network=host ghcr.io/home-assistant/home-assistant:stable
 echo
-echo "Thank you for using home assistant container updater"
+echo "Thank you for using home assistant docker updater"
